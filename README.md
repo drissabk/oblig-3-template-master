@@ -10,7 +10,7 @@ Oppgaven er levert av følgende student:
 I oppgave 1 brukte jeg if statement og while løkka for at referansen
 forelder får korrekt verdi i hver node.
 
-I oppgave 2 lagde jer en metode som returnerer antal forekomster av verdi i treet.
+I oppgave 2 lagde jeg en metode som returnerer antal forekomster av verdi i treet.
 og det gjør jeg ved å bruke while løkka og if statements
 
 I oppgave 3 lagde jeg hjelpemetoder ved bruk av while løkka og if statments. 
