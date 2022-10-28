@@ -109,6 +109,24 @@ public class SBinTre<T> {
         return true;
     }
 
+    // oppgave 2
+
+    public int antall(T verdi) {
+        Node<T> p = rot;
+        int n = 0;
+
+        while(p != null){
+            int cmp = comp.compare(verdi, p.verdi);
+
+            if(cmp < 0) p = p.venstre;
+            else if(cmp > 0) p = p.høyre;
+            else{
+                p = p.høyre;
+                n++;
+            }
+        }
+        return n;
+    }
     public boolean fjern(T verdi) {
         throw new UnsupportedOperationException("Ikke kodet ennå!");
     }
@@ -117,9 +135,7 @@ public class SBinTre<T> {
         throw new UnsupportedOperationException("Ikke kodet ennå!");
     }
 
-    public int antall(T verdi) {
-        throw new UnsupportedOperationException("Ikke kodet ennå!");
-    }
+
 
     public void nullstill() {
         throw new UnsupportedOperationException("Ikke kodet ennå!");
