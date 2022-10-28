@@ -13,4 +13,9 @@ forelder får korrekt verdi i hver node.
 I oppgave 2 lagde jer en metode som returnerer antal forekomster av verdi i treet.
 og det gjør jeg ved å bruke while løkka og if statements
 
+I oppgave 3 lagde jeg gjelpemetoder ved bruk av while løkka og if statments. 
+førstepostorden returnerer første node post orden med p som rot, og nestePostorden
+returnerer den noden som kommer etter p i postorden. og hvis p er den siste i postorden,
+skal metoden returnere null.
+
 
