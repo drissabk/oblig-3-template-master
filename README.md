@@ -18,4 +18,8 @@ førstepostorden returnerer første node post orden med p som rot, og nestePosto
 returnerer den noden som kommer etter p i postorden. og hvis p er den siste i postorden,
 skal metoden returnere null.
 
+I oppgave 4 brukte jeg funksjonen nestePostorden fra opp3 til å finne den første noden p i postorden
+Deretter vil setningen: p = nestePostorden(p); gi den neste. Osv. til p blir null.
+For den rekursive metoden lagde jeg et rekursivt kall som traverserer treet i postorden rekkefølge.
+
 
